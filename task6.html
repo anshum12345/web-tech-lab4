@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container .grid-items{
+    background-color:grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+img{
+    width:60px;
+}
+              
+        </style>
+    </head>
+    <body>
+       
+    <div class="grid-container">
+        <div class="grid-item"><img src="./chrome.png"/></div>
+        <div class="grid-item"><img src="./microsoft.png" /></div>
+        <div class="grid-item"><img src="./firefox.png" /></div>
+        <div class="grid-item"><img src="./opera.png" /></div>
+        <div class="grid-items">57.0</div>
+        <div class="grid-items">16.0</div>
+        <div class="grid-items">52.0</div>
+        <div class="grid-items">10.0</div>
+    </div>
+    
+    </body>
+</html>

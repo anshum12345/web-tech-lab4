@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+    h1{display:inline-block;}
+    </style>
+</head>
+
+<body>
+   
+    
+    <h1>This is my task 2</h1>
+    <button > Click me (Task 2(e))</button>
+    <br>
+    <button onclick="changebgcolor()"> Task 2(a)</button>
+    <button onclick="changeTextColor()">Task 2(b)</button>
+    <button onclick="changeFontSize()">Task 2(c)</button>
+    <button onclick="changeInside()"> Task 2(d)</button>
+    <script type="text/javascript">
+        changebgcolor = function () {
+            document.body.style.backgroundColor = 'rgb(124,252,0)'
+        }
+
+        changeFontSize = function(){
+            var heading = document.body.querySelector('h1');
+            heading.style.fontSize= '48px';
+        }
+        changeTextColor = function () {
+                var heading = document.body.querySelector('h1');
+                heading.style.color='red';
+            }
+        changeInside = function () {
+                var heading = document.body.querySelector('h1');
+                heading.innerHTML = 'Heading changed';
+            }
+    </script>
+</body>
+
+</html>

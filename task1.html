@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       
+        
+        <h1>Task 1</h1>
+    <button onclick="changebgcolor()">Change background and text</button>
+    <script type="text/javascript">
+        changebgcolor= function(){
+             var heading = document.body.querySelector('h1');
+            
+            document.body.style.backgroundColor='aqua'
+            heading.innerHTML = 'Heading changed';
+        }
+    </script>
+    </body>
+</html>
